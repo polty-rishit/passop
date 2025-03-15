@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const crypto = require("crypto");
 dotenv.config();
-
+//encryption is the most wonder full part of the project
 // Encryption and Decryption keys
 const ENCRYPTION_KEY = Buffer.from(process.env.ENCRYPTION_KEY, 'utf-8');
 const IV_LENGTH = 16; // For AES, this is always 16
